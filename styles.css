@@ -1,5 +1,10 @@
 /*This will be my stylesheet*/
 
+body {
+    font-family: roboto;
+    margin: 0;
+}
+
 .hero {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -9,6 +14,14 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
 }
 
 ul {
