@@ -33,10 +33,42 @@ ul {
 li a {
     text-align: center;
     text-decoration: none;
-    padding: 14px 16px;
+    padding: 14px 10px;
     color: #F9FAF8;
 }
 
   li a:hover {
     background-color: #111;
   }
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 80px 0px;
+    gap: 80px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.hero-text-two {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
