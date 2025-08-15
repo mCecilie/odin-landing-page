@@ -107,3 +107,23 @@ h2 {
     color: #4e4e4e;
     margin: 0;
 }
+
+.quotation {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 100px 350px;
+}
+
+blockquote p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+blockquote cite {
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
+    display: block;
+}
