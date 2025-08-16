@@ -127,3 +127,28 @@ blockquote cite {
     font-weight: bold;
     display: block;
 }
+
+.call-to-action {
+    padding: 20px 20px;
+    background-color: #3882F6;
+    margin: 100px 250px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.call-to-action p {
+    margin: 2px;
+}
+
+.cta-header {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.call-to-action button {
+    margin: 20px;
+    border: 2px solid;
+}
