@@ -1,9 +1,11 @@
-/*This will be my stylesheet*/
+/*MY STYLESHEET FOR THE ODIN LANDING PAGE PROJECT*/
 
 body {
     font-family: roboto;
     margin: 0;
 }
+
+/*HERO SECTION*/
 
 .hero {
     background-color: #1f372c;
@@ -73,6 +75,8 @@ button {
     font-weight: 700;
 }
 
+/*LATEST BLOG POSTS SECTION*/
+
 h2 {
     font-size: 36px;
     color: #13221c;
@@ -108,6 +112,8 @@ h2 {
     margin: 0;
 }
 
+/*QUOTATION SECTION*/
+
 .quotation {
     display: flex;
     justify-content: center;
@@ -128,6 +134,8 @@ blockquote cite {
     font-weight: bold;
     display: block;
 }
+
+/*CALL TO ACTION SECTION*/
 
 .call-to-action {
     padding: 20px 20px;
@@ -153,6 +161,8 @@ blockquote cite {
     margin: 20px;
     border: 2px solid;
 }
+
+/*THE FOOTER*/
 
 footer {
     background-color: #1f372c;
